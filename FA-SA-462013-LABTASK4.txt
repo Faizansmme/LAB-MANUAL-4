@@ -1,0 +1,44 @@
+name:faizan ali
+section :A ME-15
+CMS:462013
+
+
+#include<iostream>
+using namespace std;
+int main(){
+	task 1
+int sum = 0;
+int var;
+	for (int i = 1; i<=10; i++){
+	cout<<"enter the " << i << "number";
+cin>>var;
+		sum+= var;
+	}
+	cout<<"sum is:  \n"<<sum<<endl;
+
+task 2
+int f;
+	cout<<" enter the number for  table : ";
+	cin>>f;
+	for(int i=1; i<=10; i++){
+		cout<< f <<"*"<< i << "="<< f*i<<endl;
+	}
+task 3
+	int num1;
+	int f=1;
+	cout<<"enter positive number for its factorial\n";
+	cin>>num1;
+	for(int m=0;m<num1;m++){
+		f=f*(num1-m);
+	}
+	
+
+		cout<<f;
+		}
+	
+
+
+}
+
+
+
